@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NinjaTrader>
+  <OpenWorkspaces>
+    <OpenWorkspace>Ed1</OpenWorkspace>
+  </OpenWorkspaces>
+  <ActiveWorkspace>Ed1</ActiveWorkspace>
+  <ControlCenter>
+    <WindowState>Normal</WindowState>
+    <Location>93;2</Location>
+    <Size>3724;298</Size>
+    <Topmost>False</Topmost>
+    <TabControl>
+      <SelectedIndex>3</SelectedIndex>
+      <Tab-b8300dd5b7444764a9331b762ffc8ff4>
+        <NTGridCustomization>
+          <PropertyType>NinjaTrader.Gui.AccountData.ExecutionGridProperties</PropertyType>
+          <Properties>
+            <ExecutionGridProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <GridCustomizations>&lt;xamDataPresenter version="15.1.20151.2055" formatVersion="1.8"&gt;
+  &lt;fieldLayouts&gt;
+    &lt;fieldLayout key="ExecutionGridEntry" orientation="Vertical" fieldList="Instrument, Action, Quantity, Price, Time;DateTime, Id, EntryExit, Position, OrderId, Name, Commission, Rate, LotSize, Account, AccountName, Connection"&gt;
+      &lt;fields&gt;
+        &lt;field name="Instrument" extendedInfo="Instrument" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Action" extendedInfo="Action" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Quantity" extendedInfo="Quantity" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Price" extendedInfo="Price" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Time" extendedInfo="Time;DateTime" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Id" extendedInfo="Id" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="EntryExit" extendedInfo="EntryExit" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Position" extendedInfo="Position" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="OrderId" extendedInfo="OrderId" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Name" extendedInfo="Name" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Commission" extendedInfo="Commission" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Rate" extendedInfo="Rate" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="LotSize" extendedInfo="LotSize" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Account" extendedInfo="Account" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="AccountName" extendedInfo="AccountName" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Connection" extendedInfo="Connection" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+      &lt;/fields&gt;
+    &lt;/fieldLayout&gt;
+  &lt;/fieldLayouts&gt;
+&lt;/xamDataPresenter&gt;</GridCustomizations>
+              <IgnoreGridCustomizations>false</IgnoreGridCustomizations>
+              <TabName>@FUNCTION</TabName>
+              <VisibleColumns>
+                <string>Instrument</string>
+                <string>Action</string>
+                <string>Quantity</string>
+                <string>Price</string>
+                <string>Time</string>
+                <string>Id</string>
+                <string>EntryExit</string>
+                <string>Position</string>
+                <string>OrderId</string>
+                <string>Name</string>
+                <string>Commission</string>
+                <string>Rate</string>
+                <string>Account</string>
+                <string>Connection</string>
+              </VisibleColumns>
+              <FilterByAccountSerialize />
+              <Font>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>12</Size>
+              </Font>
+            </ExecutionGridProperties>
+          </Properties>
+          <IsAccountFiltered>False</IsAccountFiltered>
+        </NTGridCustomization>
+        <TabName>@FUNCTION 1</TabName>
+        <Type>ExecutionGrid</Type>
+      </Tab-b8300dd5b7444764a9331b762ffc8ff4>
+      <Tab-806919b9db734902b6be450edc77249d>
+        <NTGridCustomization>
+          <PropertyType>NinjaTrader.Gui.NinjaScript.StrategyGridProperties</PropertyType>
+          <Properties>
+            <StrategyGridProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <GridCustomizations>&lt;xamDataPresenter version="15.1.20151.2055" formatVersion="1.8"&gt;
+  &lt;fieldLayouts&gt;
+    &lt;fieldLayout key="ParentLayout" orientation="Vertical" fieldList="Children;ObservableCollection`1, Name, InstrumentName, DataSeries, Parameters, Position2String, AccountPosition2String, Sync, AveragePrice;Double, Unrealized, Realized, Account, AccountName, Connection, IsEnabled;String;unbound;{IsEnabled}"&gt;
+      &lt;fields&gt;
+        &lt;field name="Children" extendedInfo="Children;ObservableCollection`1" cellWidth="0" labelWidth="0" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Name" extendedInfo="Name" FixedLocation="FixedToNearEdge" cellWidth="164.38461538461539" labelWidth="164.38461538461539" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="InstrumentName" extendedInfo="InstrumentName" cellWidth="69.051282051282072" labelWidth="69.051282051282072" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="DataSeries" extendedInfo="DataSeries" cellWidth="69.051282051282072" labelWidth="69.051282051282072" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Parameters" extendedInfo="Parameters" cellWidth="69.051282051282072" labelWidth="69.051282051282072" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Position2String" extendedInfo="Position2String" cellWidth="69.051282051282072" labelWidth="69.051282051282072" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="AccountPosition2String" extendedInfo="AccountPosition2String" cellWidth="69.051282051282072" labelWidth="69.051282051282072" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Sync" extendedInfo="Sync" cellWidth="69.051282051282072" labelWidth="69.051282051282072" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="AveragePrice" extendedInfo="AveragePrice;Double" cellWidth="69.051282051282072" labelWidth="69.051282051282072" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Unrealized" extendedInfo="Unrealized" cellWidth="69.051282051282072" labelWidth="69.051282051282072" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Realized" extendedInfo="Realized" cellWidth="69.051282051282072" labelWidth="69.051282051282072" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Account" extendedInfo="Account" cellWidth="69.051282051282072" labelWidth="69.051282051282072" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="AccountName" extendedInfo="AccountName" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Connection" extendedInfo="Connection" cellWidth="69.051282051282072" labelWidth="69.051282051282072" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="IsEnabled" extendedInfo="IsEnabled;String;unbound;{IsEnabled}" cellWidth="69.051282051282072" labelWidth="69.051282051282072" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+      &lt;/fields&gt;
+    &lt;/fieldLayout&gt;
+  &lt;/fieldLayouts&gt;
+&lt;/xamDataPresenter&gt;</GridCustomizations>
+              <IgnoreGridCustomizations>false</IgnoreGridCustomizations>
+              <TabName>@FUNCTION</TabName>
+              <VisibleColumns>
+                <string>Children</string>
+                <string>Name</string>
+                <string>InstrumentName</string>
+                <string>DataSeries</string>
+                <string>Parameters</string>
+                <string>Position2String</string>
+                <string>AccountPosition2String</string>
+                <string>Sync</string>
+                <string>AveragePrice</string>
+                <string>Unrealized</string>
+                <string>Realized</string>
+                <string>Account</string>
+                <string>Connection</string>
+                <string>IsEnabled</string>
+              </VisibleColumns>
+              <FilterByAccountSerialize />
+              <FilterOnlyActiveStrategies>false</FilterOnlyActiveStrategies>
+              <Font>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>12</Size>
+              </Font>
+            </StrategyGridProperties>
+          </Properties>
+          <IsAccountFiltered>False</IsAccountFiltered>
+        </NTGridCustomization>
+        <TabName>@FUNCTION 1</TabName>
+        <Type>StrategiesGrid</Type>
+      </Tab-806919b9db734902b6be450edc77249d>
+      <Tab-34a20d699c9242929265516c63c8fdc5>
+        <NTGridCustomization>
+          <PropertyType>NinjaTrader.Gui.Tools.NTGridProperties</PropertyType>
+          <Properties>
+            <NTGridProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <GridCustomizations>&lt;xamDataPresenter version="15.1.20151.2055" formatVersion="1.8"&gt;
+  &lt;fieldLayouts&gt;
+    &lt;fieldLayout key="PositionGridEntry" orientation="Vertical" fieldList="Instrument, Side;MarketPosition, Quantity;Int32, Sod;Int32, FilledBuys;Int32, FilledSells;Int32, AveragePrice;Double, UnrealizedPnL;Double, AccountName, Account, Connection, WorkingBuys;Int32, WorkingSells;Int32, IntradayMargin;Double, InitialMargin;Double, ExcessIntradayMargin;Double, ExcessInitialMargin;Double, MaintenanceMargin;Double, ExcessMaintenanceMargin;Double, PositionMargin;Double, ExcessPositionMargin;Double, X;Int32;unbound"&gt;
+      &lt;fields&gt;
+        &lt;field name="Instrument" extendedInfo="Instrument" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Side" extendedInfo="Side;MarketPosition" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Quantity" extendedInfo="Quantity;Int32" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Sod" extendedInfo="Sod;Int32" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="FilledBuys" extendedInfo="FilledBuys;Int32" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="FilledSells" extendedInfo="FilledSells;Int32" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="AveragePrice" extendedInfo="AveragePrice;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="UnrealizedPnL" extendedInfo="UnrealizedPnL;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="AccountName" extendedInfo="AccountName" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Account" extendedInfo="Account" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Connection" extendedInfo="Connection" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="WorkingBuys" extendedInfo="WorkingBuys;Int32" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="WorkingSells" extendedInfo="WorkingSells;Int32" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="IntradayMargin" extendedInfo="IntradayMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="InitialMargin" extendedInfo="InitialMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="ExcessIntradayMargin" extendedInfo="ExcessIntradayMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="ExcessInitialMargin" extendedInfo="ExcessInitialMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="MaintenanceMargin" extendedInfo="MaintenanceMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="ExcessMaintenanceMargin" extendedInfo="ExcessMaintenanceMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="PositionMargin" extendedInfo="PositionMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="ExcessPositionMargin" extendedInfo="ExcessPositionMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="X" extendedInfo="X;Int32;unbound" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+      &lt;/fields&gt;
+    &lt;/fieldLayout&gt;
+  &lt;/fieldLayouts&gt;
+&lt;/xamDataPresenter&gt;</GridCustomizations>
+              <IgnoreGridCustomizations>false</IgnoreGridCustomizations>
+              <TabName>@FUNCTION</TabName>
+              <VisibleColumns>
+                <string>Instrument</string>
+                <string>Side</string>
+                <string>Quantity</string>
+                <string>AveragePrice</string>
+                <string>UnrealizedPnL</string>
+                <string>AccountName</string>
+                <string>Account</string>
+                <string>Connection</string>
+              </VisibleColumns>
+            </NTGridProperties>
+          </Properties>
+          <IsAccountFiltered>False</IsAccountFiltered>
+        </NTGridCustomization>
+        <TabName>@FUNCTION 1</TabName>
+        <Type>PositionGrid</Type>
+      </Tab-34a20d699c9242929265516c63c8fdc5>
+      <Tab-6effef1a5a98489a9da46248f7d6051e>
+        <ActivePositionFilter>All</ActivePositionFilter>
+        <AccountStatusFilter>All</AccountStatusFilter>
+        <ShowExcluded>False</ShowExcluded>
+        <ShowExcludedMicros>False</ShowExcludedMicros>
+        <NTGridCustomization>
+          <PropertyType>NinjaTrader.Gui.AccountData.AccountGridProperties</PropertyType>
+          <Properties>
+            <AccountGridProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <GridCustomizations>&lt;xamDataPresenter version="15.1.20151.2055" formatVersion="1.8"&gt;
+  &lt;fieldLayouts&gt;
+    &lt;fieldLayout key="AccountGridEntry" orientation="Vertical" fieldList="ConnectionStatus;ConnectionStatus, Connection, Account, Name, Commission, Risk, TotalCommissions;Double, MinimumCashValue;Double, MaxOrderSize;Int32, MaxPositionSize;Int32, BuyingPower;Double, CashValue;Double, SodCashValue;Double, ExcessIntradayMargin;Double, ExcessInitialMargin;Double, IntradayMargin;Double, InitialMargin;Double, MaintenanceMargin;Double, LookAheadMaintenanceMargin;Double, ExcessMaintenanceMargin;Double, PositionMargin;Double, ExcessPositionMargin;Double, NetLiquidation;Double, NetLiquidationByCurrency;Double, NetLiquidationMinusCommissions;Double, TotalCashBalance;Double, GrossRealizedProfitLoss;Double, RealizedProfitLoss;Double, UnrealizedProfitLoss;Double, TotalProfitLoss;Double, OpenInstruments, Position;Int32, FilledBuys;Int32, FilledSells;Int32, WorkingBuys;Int32, WorkingSells;Int32, Note, X;Int32;unbound"&gt;
+      &lt;fields&gt;
+        &lt;field name="ConnectionStatus" extendedInfo="ConnectionStatus;ConnectionStatus" FixedLocation="FixedToNearEdge" cellWidth="40" labelWidth="40" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Connection" extendedInfo="Connection" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Account" extendedInfo="Account" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Name" extendedInfo="Name" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Commission" extendedInfo="Commission" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Risk" extendedInfo="Risk" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="TotalCommissions" extendedInfo="TotalCommissions;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="MinimumCashValue" extendedInfo="MinimumCashValue;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="MaxOrderSize" extendedInfo="MaxOrderSize;Int32" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="MaxPositionSize" extendedInfo="MaxPositionSize;Int32" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="BuyingPower" extendedInfo="BuyingPower;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="CashValue" extendedInfo="CashValue;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="SodCashValue" extendedInfo="SodCashValue;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="ExcessIntradayMargin" extendedInfo="ExcessIntradayMargin;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="ExcessInitialMargin" extendedInfo="ExcessInitialMargin;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="IntradayMargin" extendedInfo="IntradayMargin;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="InitialMargin" extendedInfo="InitialMargin;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="MaintenanceMargin" extendedInfo="MaintenanceMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="LookAheadMaintenanceMargin" extendedInfo="LookAheadMaintenanceMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="ExcessMaintenanceMargin" extendedInfo="ExcessMaintenanceMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="PositionMargin" extendedInfo="PositionMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="ExcessPositionMargin" extendedInfo="ExcessPositionMargin;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="NetLiquidation" extendedInfo="NetLiquidation;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="NetLiquidationByCurrency" extendedInfo="NetLiquidationByCurrency;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="NetLiquidationMinusCommissions" extendedInfo="NetLiquidationMinusCommissions;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="TotalCashBalance" extendedInfo="TotalCashBalance;Double" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="GrossRealizedProfitLoss" extendedInfo="GrossRealizedProfitLoss;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="RealizedProfitLoss" extendedInfo="RealizedProfitLoss;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="UnrealizedProfitLoss" extendedInfo="UnrealizedProfitLoss;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="TotalProfitLoss" extendedInfo="TotalProfitLoss;Double" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="OpenInstruments" extendedInfo="OpenInstruments" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Position" extendedInfo="Position;Int32" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="FilledBuys" extendedInfo="FilledBuys;Int32" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="FilledSells" extendedInfo="FilledSells;Int32" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="WorkingBuys" extendedInfo="WorkingBuys;Int32" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="WorkingSells" extendedInfo="WorkingSells;Int32" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Note" extendedInfo="Note" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="X" extendedInfo="X;Int32;unbound" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+      &lt;/fields&gt;
+    &lt;/fieldLayout&gt;
+  &lt;/fieldLayouts&gt;
+&lt;/xamDataPresenter&gt;</GridCustomizations>
+              <IgnoreGridCustomizations>false</IgnoreGridCustomizations>
+              <TabName>@FUNCTION</TabName>
+              <VisibleColumns>
+                <string>ConnectionStatus</string>
+                <string>Connection</string>
+                <string>Account</string>
+                <string>BuyingPower</string>
+                <string>CashValue</string>
+                <string>ExcessIntradayMargin</string>
+                <string>ExcessInitialMargin</string>
+                <string>IntradayMargin</string>
+                <string>InitialMargin</string>
+                <string>NetLiquidation</string>
+                <string>GrossRealizedProfitLoss</string>
+                <string>RealizedProfitLoss</string>
+                <string>UnrealizedProfitLoss</string>
+                <string>TotalProfitLoss</string>
+              </VisibleColumns>
+              <ExcessIntradayMarginLimit>500</ExcessIntradayMarginLimit>
+              <ExcessInitialMarginLimit>500</ExcessInitialMarginLimit>
+              <ExcessPositionMarginLimit>500</ExcessPositionMarginLimit>
+              <LargePositionAlert>100</LargePositionAlert>
+              <FilterByAccountSerialize />
+              <Font>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>12</Size>
+              </Font>
+              <PlaySoundOnPositionAlert>false</PlaySoundOnPositionAlert>
+            </AccountGridProperties>
+          </Properties>
+          <IsAccountFiltered>False</IsAccountFiltered>
+        </NTGridCustomization>
+        <TabName>@FUNCTION 1</TabName>
+        <Type>AccountGrid</Type>
+      </Tab-6effef1a5a98489a9da46248f7d6051e>
+      <Tab-710c5622b37847a0bc0386244369b156>
+        <NTGridCustomization>
+          <PropertyType>NinjaTrader.Gui.AccountData.LogGridProperties</PropertyType>
+          <Properties>
+            <LogGridProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <GridCustomizations>&lt;xamDataPresenter version="15.1.20151.2055" formatVersion="1.8"&gt;
+  &lt;fieldLayouts&gt;
+    &lt;fieldLayout key="LogGridEntry" orientation="Vertical" fieldList="Time;DateTime, ServerName, Account, User, LogCategory, Message, ScrollTip"&gt;
+      &lt;sortedFields&gt;
+        &lt;sortedField extendedInfo="Time;DateTime" direction="Descending" fieldName="Time" isGroupBy="false" /&gt;
+      &lt;/sortedFields&gt;
+      &lt;fields&gt;
+        &lt;field name="Time" extendedInfo="Time;DateTime" FixedLocation="FixedToNearEdge" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="ServerName" extendedInfo="ServerName" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Account" extendedInfo="Account" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="User" extendedInfo="User" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="LogCategory" extendedInfo="LogCategory" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="Message" extendedInfo="Message" cellWidth="6" labelWidth="6" Visibility="Visible" IgnoreFieldVisibilityOverrides="false" /&gt;
+        &lt;field name="ScrollTip" extendedInfo="ScrollTip" Visibility="Collapsed" IgnoreFieldVisibilityOverrides="false" /&gt;
+      &lt;/fields&gt;
+    &lt;/fieldLayout&gt;
+  &lt;/fieldLayouts&gt;
+&lt;/xamDataPresenter&gt;</GridCustomizations>
+              <IgnoreGridCustomizations>false</IgnoreGridCustomizations>
+              <TabName>@FUNCTION</TabName>
+              <VisibleColumns>
+                <string>Time</string>
+                <string>LogCategory</string>
+                <string>Message</string>
+              </VisibleColumns>
+              <Font>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>12</Size>
+              </Font>
+              <InformationBackgroundSerialize>DEFAULT</InformationBackgroundSerialize>
+              <WarningBackgroundSerialize>DEFAULT</WarningBackgroundSerialize>
+              <ErrorBackgroundSerialize>DEFAULT</ErrorBackgroundSerialize>
+              <AlertBackgroundSerialize>DEFAULT</AlertBackgroundSerialize>
+            </LogGridProperties>
+          </Properties>
+          <IsAccountFiltered>False</IsAccountFiltered>
+        </NTGridCustomization>
+        <ServerColumns />
+        <TabName>@FUNCTION 1</TabName>
+        <Type>LogGrid</Type>
+      </Tab-710c5622b37847a0bc0386244369b156>
+    </TabControl>
+  </ControlCenter>
+  <DataBox_Untitled>
+    <Location>1159;33</Location>
+    <Size>281;1539</Size>
+    <Properties>
+      <DataBoxProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <AlwaysOnTop>true</AlwaysOnTop>
+        <AutoSize>false</AutoSize>
+        <Font>
+          <Bold>false</Bold>
+          <FamilySerialize>Arial</FamilySerialize>
+          <Italic>false</Italic>
+          <Size>12</Size>
+        </Font>
+        <ShowDataSeriesLabels>true</ShowDataSeriesLabels>
+        <ShowIndicatorsLabels>true</ShowIndicatorsLabels>
+        <ShowPanelNumbers>true</ShowPanelNumbers>
+        <ShowBarIndexes>false</ShowBarIndexes>
+        <ShowBarNumbers>false</ShowBarNumbers>
+      </DataBoxProperties>
+    </Properties>
+  </DataBox_Untitled>
+  <DataBox_Ed1>
+    <Location>3171;513</Location>
+    <Size>281;1539</Size>
+    <Properties>
+      <DataBoxProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <AlwaysOnTop>true</AlwaysOnTop>
+        <AutoSize>false</AutoSize>
+        <Font>
+          <Bold>false</Bold>
+          <FamilySerialize>Arial</FamilySerialize>
+          <Italic>false</Italic>
+          <Size>12</Size>
+        </Font>
+        <ShowDataSeriesLabels>true</ShowDataSeriesLabels>
+        <ShowIndicatorsLabels>true</ShowIndicatorsLabels>
+        <ShowPanelNumbers>true</ShowPanelNumbers>
+        <ShowBarIndexes>false</ShowBarIndexes>
+        <ShowBarNumbers>false</ShowBarNumbers>
+      </DataBoxProperties>
+    </Properties>
+  </DataBox_Ed1>
+</NinjaTrader>
